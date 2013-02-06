@@ -1,4 +1,3 @@
-
 from Config import ACTIVECAMPAIGN_URL, ACTIVECAMPAIGN_API_KEY
 from ActiveCampaign import ActiveCampaign
 import simplejson as json
@@ -181,7 +180,7 @@ if __name__ == '__main__':
 ##    print ac.api('campaign/report_unsubscription_totals?campaignid=13&messageid=2')
 
     ## report_send
-##    print ac.api('campaign/send?campaignid=13&messageid=2&type=mime&action=send&email=oana.matei@adulmec.ro')
+##    print ac.api('campaign/send?campaignid=13&messageid=2&type=mime&action=send&email=person@example.com')
 
     ## report_status
 ##    print ac.api('campaign/status?id=13&status=5')
